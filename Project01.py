@@ -28,4 +28,5 @@ def main():
         if flag == 0:
             print("Conditions are suitable for zebra fishes. The average pH is"
                   " ", format(result/count, '.2f'), ".", sep="")
+
 main()
