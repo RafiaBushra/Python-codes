@@ -1,2 +1,3 @@
 # Python-codes
-All my codes in Python
+
+This repository contains all my codes in Python language.
