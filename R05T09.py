@@ -14,5 +14,4 @@ def main():
             print(list[i])
             count += 1
         i += 1
-
 main()
