@@ -3,8 +3,6 @@
 #Student Name: Rafia Bushra
 #Student ID: 268449
 
-from math import sqrt
-
 
 def menu():
     tank_size  = read_number("How much does the vehicle's gas tank hold? ")
@@ -57,7 +55,7 @@ def drive(x, y, new_x, new_y, gas, gas_consumption):
 
 
 def path_length(x, y, new_x, new_y):
-    return float(sqrt(((new_x - x)**2 + (new_y - y)**2)))
+    return float(((new_x - x)**2 + (new_y - y)**2)**.5)
 
 
 def return_value(x, y, new_x, new_y, gas, gas_consumption, gas_consumed, max_distance):
